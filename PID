@@ -32,9 +32,9 @@
 #define _INTERVAL_SERIAL 100  //  시리얼 제어 주기
 
 // PID parameters
-#define _KP 0.5   // 비례이득
-#define _KD  38   // 미분이득
-#define _KI 4
+#define _KP 0.4   // 비례이득
+#define _KD 67   // 미분이득
+#define _KI 1.5
 
 //#define a 70
 //#define b 450
