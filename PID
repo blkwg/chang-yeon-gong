@@ -15,12 +15,12 @@
 // Distance sensor  
 #define _DIST_ALPHA 0.4
 #define _ITERM_MAX 60
-#define EMA_ALPHA 0.1
+#define EMA_ALPHA 0.5
 
 // Servo range
 #define _DUTY_MIN 1375    // 서보 duty 최소값
-#define _DUTY_NEU 1465    // 서보 duty 중간값
-#define _DUTY_MAX 1565    // 서보 duty 최댓값
+#define _DUTY_NEU 1500    // 서보 duty 중간값
+#define _DUTY_MAX 1620    // 서보 duty 최댓값
 
 // Servo speed control
 #define _SERVO_ANGLE 30       // 서보 각도
@@ -33,7 +33,7 @@
 
 // PID parameters
 #define _KP 0.5   // 비례이득
-#define _KD 59    // 미분이득
+#define _KD  38   // 미분이득
 #define _KI 4
 
 //#define a 70
